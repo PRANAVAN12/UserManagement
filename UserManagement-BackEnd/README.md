@@ -6,4 +6,4 @@
 5.yarn db:seed,
 6.yarn db:reset
 7. yarn start
-"# NextGen_Hotel_Management"
+

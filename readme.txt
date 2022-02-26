@@ -1,1 +1,1 @@
-
+User management is an important part of any web application where users can create their account and manage. The users are allowed to register their account and login to access their account. The users are also managed by administrator to allow certain roles or update users info

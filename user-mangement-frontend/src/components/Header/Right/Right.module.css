@@ -1,0 +1,11 @@
+.name-container {
+  vertical-align: middle;
+  display: table-cell;
+  overflow: hidden;
+}
+
+.profile-text {
+  padding: 15px;
+  color: #fff;
+  text-align: right;
+}

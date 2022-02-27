@@ -1,0 +1,63 @@
+.header {
+  padding: 35px;
+  background-color: #f8f8f8;
+  max-width: 255px;
+  min-height: 500px;
+  position: relative;
+  display: flex;
+  width: 100%;
+  min-width: 255px;
+  flex-direction: column;
+}
+
+.header .title {
+  font-size: 28px;
+  font-weight: 300;
+  color: #333;
+}
+
+.header .description {
+  margin: 20px 0;
+  font-size: 14px;
+  font-weight: 400;
+  color: #333;
+}
+
+.header .image-container {
+  margin: 40px 0;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+.header .image-container svg {
+  width: 100px;
+  height: 100px;
+  fill: #333;
+}
+
+.body {
+  flex: 4 4 auto;
+  padding: 35px 28px;
+  overflow-y: hidden;
+}
+
+.editor {
+  width: 798px;
+  max-height: calc(100vh - 78px);
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+
+.container {
+  flex: 1 1 auto;
+  position: relative;
+  padding: 0 32px;
+}
+
+@media (max-width: 639px) {
+  .editor {
+    width: calc(100% - 10px);
+  }
+}
